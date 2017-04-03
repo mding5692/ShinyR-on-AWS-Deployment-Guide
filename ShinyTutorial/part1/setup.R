@@ -1,5 +1,8 @@
 # Setup should be used as a config file for all packages, special constants and variables used 
 
+# Clears global environment to remove any possible conflicts in dependencies, etc.
+rm(list = ls())
+
 # Packages installed and used
 packagesInstalled <- c("shiny","easypackages") # use this to specify the packages to install
 install.packages(packagesInstalled)
