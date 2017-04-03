@@ -10,3 +10,5 @@ Project Structure:
       Part1: Basic HelloWorld Example
       
       Part2: Basic Reactive Histogram Example
+      
+      Part3: Basic HTML UI Example
