@@ -1,5 +1,5 @@
 # DataSciProject
-Intro to Data Sci Final Project
+Data Sci Final Project
 
 Author: Michael Ding
 Project: Ivey Data Science Project - Creating ShinyR web apps as well as hosting via AWS
