@@ -4,18 +4,26 @@ source(quantmodHelperLocation)
 
 # SERVER
 shinyServer(function(input, output) {
-
-  output$plot <- renderPlot({
-    # make sure requirements are met, else displays empty screen
-    req(input$symb)
-    
-    data <- getSymbols(input$symb, src = "yahoo", 
+  # Reactive expression <- updates value whenever original widget changes
+  dataInput <- reactive({
+    getSymbols(input$symb, src = "yahoo", 
       from = input$dates[1],
       to = input$dates[2],
       auto.assign = FALSE)
-                 
-    chartSeries(data, theme = chartTheme("white"), 
-      type = "line", log.scale = input$log, TA = NULL)
+  })
+
+  # adjusts data if needed
+  adjustedInput <- reactive({
+    if (!input$adjust) return(dataInput())
+    adjust(dataInput())
+  })
+  
+  # Plots it when loaded
+  output$plot <- renderPlot({
+    # make sure requirements are met, else displays empty screen
+    req(input$symb)
+    chartSeries(adjustedInput(), theme = chartTheme("white"), 
+              type = "line", log.scale = input$log, TA = NULL)
   })
   
 })
