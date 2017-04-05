@@ -4,10 +4,10 @@ shinyUI(
     fluidRow(
     column(3,
            h3("Buttons"),
-           actionButton("action", label = "Action"),
+           actionButton("action", label = "Do this"),
            br(),
            br(), 
-           submitButton("Submit")),
+           submitButton("Send")),
     
     column(3,
            h3("Single checkbox"),

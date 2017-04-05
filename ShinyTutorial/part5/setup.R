@@ -4,7 +4,7 @@
 rm(list = ls())
 
 # Packages installed and used
-packagesInstalled <- c("easypackages", "shiny") # use this to specify the packages to install
+packagesInstalled <- c("easypackages", "shiny", "UScensus2010","maps", "mapproj") # use this to specify the packages to install
 install.packages(packagesInstalled)
 update.packages(packagesInstalled)
 library(easypackages) # use this to load + managed multiple packages easily
