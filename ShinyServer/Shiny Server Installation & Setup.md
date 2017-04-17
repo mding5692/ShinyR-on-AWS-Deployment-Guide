@@ -14,19 +14,16 @@ for Windows.*
 -   Theres usually a button to create an EC2 instance on the main page,
     > if not press Services on the navbar and then EC2 like below:
 
-![Screen Shot 2017-04-16 at 12.45.55
-AM.png](media/image03.png){width="5.5625in" height="4.4375in"}
+![AWS_EC2.png](./pictures/AWS_EC2.png){width="5.5625in" height="4.4375in"}
 
 -   Click **Launch Instance**
 
-![Screen Shot 2017-04-16 at 12.47.37
-AM.png](media/image05.png){width="3.7083333333333335in"
+![AWS_Launch.png](./pictures/AWS_Launch.png){width="3.7083333333333335in"
 height="1.4166666666666667in"}
 
 -   Choose the Ubuntu Server:
 
-![Screen Shot 2017-04-16 at 12.48.45
-AM.png](media/image04.png){width="6.5in" height="0.9322922134733158in"}
+![AWS_Ubunty.png](./pictures/AWS_Ubuntu.png){width="6.5in" height="0.9322922134733158in"}
 
 -   Choose t2.micro for now to test out free tier, you can choose more
     > powerful versions if you can pay.
