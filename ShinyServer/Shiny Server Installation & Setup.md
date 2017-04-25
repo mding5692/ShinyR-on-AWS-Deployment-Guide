@@ -12,7 +12,7 @@ for Windows.*
 -   Sign up for AWS or login if you already have an account
 
 -   Theres usually a button to create an EC2 instance on the main page,
-    > if not press Services on the navbar and then EC2 like below:
+    if not press Services on the navbar and then EC2 like below:
 
 ![AWS_EC2.png](./pictures/AWS_EC2.png)
 
@@ -37,7 +37,8 @@ for Windows.*
 
 -   Use “ssh -i **keyFileName.pem**
     > [*ubuntu@ec2-etc-etc.compute.amazonaws.com*](mailto:ubuntu@ec2-etc-etc.compute.amazonaws.com)”
-    > and enter yes after successfully authenticating
+    
+    and enter yes after successfully authenticating
 
 **Shiny Server Setup:**
 
@@ -48,7 +49,7 @@ for Windows.*
 -   Enter “sudo gdebi shiny-server-commercial-1.5.3.770-amd64.deb”
 
 -   Enter yes to installing Shiny Server package and dependencies when
-    > prompted
+    prompted
 
 **Shiny Server Start/Stop:**
 
