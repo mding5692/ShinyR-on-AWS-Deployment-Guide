@@ -130,9 +130,7 @@ assets) based on the directory that you defined, to access each of these
 use [*http://your-server.com/assets*](http://your-server.com/assets) for
 the below example:
 
-![Assets Directory](./pictures/Site_Directory.png){width="2.15625in"
-height="0.7291666666666666in"}
-
+![Assets Directory](./pictures/Site_Directory.png)
 If inside the directory you serving has the directory assets.
 
 **app\_dir:** Serves a single application defined at given directory
@@ -294,7 +292,7 @@ For defining custom html templates to be served for special cases like a
 **etc/shiny-server/templates/.** All file have to follow the **error-**
 convention with html file format like below:
 
-![templates](./pictures/Template_Names.png){width="6.5in" height="3.013888888888889in"}
+![templates](./pictures/Template_Names.png)
 
 Use the line:
 
@@ -325,7 +323,7 @@ parameter like below:
 
 There are 5 logging formats allowed:
 
-![Server Logs](./pictures/Server_Logs.png){width="6.5in" height="1.5277777777777777in"}
+![Server Logs](./pictures/Server_Logs.)
 
 **Environment Variables**
 
