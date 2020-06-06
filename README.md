@@ -1,8 +1,6 @@
-# DataSciProject
-Data Sci Final Project
+*Author*: Michael Ding
 
-Author: Michael Ding
-Project: Creating ShinyR web apps as well as hosting via AWS
+*Project*: Creating ShinyR web apps as well as hosting via AWS
 
 Project Structure:
 - ShinyTutorial: Creating a ShinyR web app
